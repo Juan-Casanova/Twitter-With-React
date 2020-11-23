@@ -1,8 +1,9 @@
 import React from 'react';
+import './style.css'
 
 const Icon = (props) => {
     return (
-        <div>
+        <div className = "t-icon">
             {props.source}
         </div>
     )
