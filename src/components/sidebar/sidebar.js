@@ -1,11 +1,23 @@
-import React from 'react'
+//Se import Modulos
+import React from 'react';
 
-class sidebar extends React.Component {
-    render () {
-        return (
-            <h1>Hi</h1>
+//Se importa componentes
+import Icon from '../icon/icon';
+
+const Sidebar = (props) => {
+    return (
+        <div>
+            <div>
+                {
+                    props.iconList.map( icon => {
+                        return (
+                            <Icon source = {icon} />
+                        )
+                    })
+                }
+            </div>
+        </div>
         )
-    }
 }
 
-export default sidebar;
+export default Sidebar;
