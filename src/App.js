@@ -28,14 +28,15 @@ class App extends React.Component{
         < MailOutline />,
         < UserOutline />,
         < DotsCircleHorizontalOutline />
-      ]
+      ],
+      profileUrl: 'https://png.pngtree.com/png-vector/20190710/ourmid/pngtree-user-vector-avatar-png-image_1541962.jpg'
     }
   }
 
   render() {
     return (
       <div className="App">
-        <Sidebar iconList={this.state.iconArray}/>
+        <Sidebar iconList={this.state.iconArray} profileUrl={this.state.profileUrl} />
         <Main/>
       </div>
     )
