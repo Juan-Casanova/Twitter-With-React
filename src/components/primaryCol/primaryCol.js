@@ -4,6 +4,7 @@ import React from 'react';
 //importar los componentes que s eocupan
 import PostTweet from '../postTweet/postTweet';
 import TweetContainer from '../tweetContainer/tweetContainer'
+import './styles.css'
 
 const PrimaryCol = (props) => {
     return (

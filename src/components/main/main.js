@@ -9,7 +9,7 @@ const Main = (props) => {
     return (
         <div>
             <PrimaryCol profileUrl = {props.profileUrl}/>
-            <SiderCol/>
+            {/* <SiderCol/> */}
         </div>
     )
 }
