@@ -7,7 +7,7 @@ import SiderCol from '../sidebarCol/sidebarCol';
 
 const Main = (props) => {
     return (
-        <div>
+        <div className="t-main">
             <PrimaryCol profileUrl = {props.profileUrl}/>
             {/* <SiderCol/> */}
         </div>
