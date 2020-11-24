@@ -12,9 +12,9 @@ const SideBarCol = (props) => {
             <div>
                 <SearchBar />
             </div>
-            <h3>Qué esta pasando</h3>
+            <h2>Qué esta pasando</h2>
             <div>
-                {/* <Trends /> */}
+                <Trends />
             </div>
 
         </div>

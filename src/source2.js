@@ -29,4 +29,8 @@ const trends = [
         tittle : "Hugo Sanchez anuncia regreso a las canchas con el tigres",
         noTweets : 8526169
     }
-]
+];
+
+export {
+    trends
+}
