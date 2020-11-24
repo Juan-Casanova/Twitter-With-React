@@ -1,11 +1,17 @@
+//Se importa los modulos que se van a utilizar
 import React from 'react'
 
-class main extends React.Component {
-    render () {
-        return (
-            <h1>Hi</h1>
-        )
-    }
+//Se importa los componentes a utilizar en la gerarquia
+import PrimaryCol from '../primaryCol/primaryCol';
+import SiderCol from '../sidebarCol/sidebarCol';
+
+const Main = (props) => {
+    return (
+        <div>
+            <PrimaryCol profileUrl = {props.profileUrl}/>
+            <SiderCol/>
+        </div>
+    )
 }
 
-export default main;
+export default Main;

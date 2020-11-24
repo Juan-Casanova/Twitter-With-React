@@ -37,7 +37,7 @@ class App extends React.Component{
     return (
       <div className="App">
         <Sidebar iconList={this.state.iconArray} profileUrl={this.state.profileUrl} />
-        <Main/>
+        <Main profileUrl={this.state.profileUrl}/>
       </div>
     )
   }
