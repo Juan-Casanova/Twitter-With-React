@@ -1,12 +1,12 @@
 //Se importa los modulos que se necesitan
 import React from 'react'
 
-class SideBarCol extends React.Component{
-    render() {
-        return (
-            <h1>HI</h1>
-        )
-    }
+const SideBarCol = (props) => {
+    return (
+        <div className="t-sidebar-col">
+
+        </div>
+    )
 }
 
 export default SideBarCol;
