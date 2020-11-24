@@ -15,14 +15,14 @@ class Trends extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className = "container-Trends">
                 {
                     this.state.newtrend.map( trend=> {
                         return (
                             <div className = "container-Trend">
                                 <p className = "categoryTrend">{trend.category}</p>
                                 <p className = "tittleTrend">{trend.tittle}</p>
-                                <p className = "noTrend">{trend.noTweets}</p>
+                                <p className = "noTrend">{trend.noTweets/1000} mil Tweets</p>
                             </div>
                         )
                     })

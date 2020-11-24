@@ -44,4 +44,6 @@
 
 .t-sidebar-col{
   width: 35%;
+  margin-left: 50px;
+  overflow: auto;
 }

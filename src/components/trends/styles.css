@@ -1,0 +1,35 @@
+.container-Trends {
+    background-color: #EBEBEB;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.container-Trend {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.categoryTrend {
+    margin: 0;
+    text-align: left;
+    padding-left: 15px;
+    font-size: 1.1rem;
+    color: #8D8D8D;
+}
+
+.tittleTrend {
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+
+.noTrend {
+    margin: 0;
+    text-align: left;
+    padding-left: 15px;
+    font-size: 1.1rem;
+    color: #8D8D8D;
+}
